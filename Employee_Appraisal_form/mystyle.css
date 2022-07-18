@@ -1,0 +1,93 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+background-color: linen;
+}  
+header {   
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 0;  
+height: 50px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 15px 0 black; 
+}  
+
+hr{
+    color: seablue;
+    size: 20px;
+}
+
+article nav {
+    position: sticky; 
+    background-color: slateblue;   
+    left: 0;  
+    right: 0;    
+    height: 30px;  
+    display: flex;  
+    text-align: center;  
+    box-shadow: 0 0 20px 0 darkslateblue; 
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:bolder ;
+    flex-direction: column; 
+}
+
+article section{
+    position: relative;
+    left: 10px;
+    top: 5px;  
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    color: black;
+    text-align: left;
+}   
+
+table{
+    text-align: center;
+    width: 100%;
+}
+
+button{
+    background-color: slateblue;
+    border: brown;
+    font-size: 20px;
+    height: 1cm;
+    color: bisque;
+    display: inline-block;
+    width: 150px;
+
+}
+
+#row{
+    height: 75px;
+    font-size: 125%;
+}
+
+#caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-size: 150%;
+}
+input[type='number']{
+    width: 40px;
+} 
+
+a:link,a:visited{
+    color: bisque;
+    font-style: normal;
+    text-decoration:none;
+}
+a:active{
+    color: gold;
+}

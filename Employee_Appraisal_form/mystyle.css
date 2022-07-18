@@ -7,6 +7,7 @@ background-size: cover;
 font-family: sans-serif;  
 background-color: linen;
 }  
+
 header {   
 position: fixed;  
 left: 0;  
@@ -79,6 +80,7 @@ button{
     font-style: bold;
     font-size: 150%;
 }
+
 input[type='number']{
     width: 40px;
 } 
@@ -88,6 +90,7 @@ a:link,a:visited{
     font-style: normal;
     text-decoration:none;
 }
+
 a:active{
     color: gold;
 }

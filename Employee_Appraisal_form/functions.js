@@ -1,4 +1,4 @@
-
+//get todays date
         function todayDate()
         {
             var inputD=document.getElementById("inputdate");
@@ -12,6 +12,7 @@
             inputD.value =day+"/"+month+"/"+year;
         }
 
+//get time duration of appraisal
         function Time_duration(){
             var inputY=document.getElementById("yr");
             var inputA=document.getElementById("appr_type");
@@ -51,19 +52,14 @@
             return res;
         }
 
-
+//add rows to the table for 'non-work-related projects'
         var x=1
         function nonWorkAddRow()
-         {
-             var table_obj= document.getElementById('non_work');
-                 x++;
-                
-                 var new_row= table_obj.insertRow();
-                 //var new_cell1=new_row.insertCell(0);
-                 
-                 new_row.id="nw_r"+x;
-                 //new_cell1.id="nw_sl_no"+x;
- 
+        {
+            var table_obj= document.getElementById('non_work');
+            x++; 
+            var new_row= table_obj.insertRow();
+            new_row.id="nw_r"+x;
                  
             var flag;
             for (var j=1;j<x;j++){
@@ -77,33 +73,25 @@
                     flag=1;
                 }
             }
-                if (flag==1){
+            if (flag==1){
                     alert("reload page");   
-                }
-
-                 //new_cell1.innerHTML=x+".";
-                // sl_no(i);
-             
-         }
-        
+            }   
+        }
+         
+//add rows to the table for 'work-related projects'
        var i=1
        function workAddRow()
         {
             var work_table_obj= document.getElementById('work');
-                i++;
-               
-                var new_row= work_table_obj.insertRow();
-                //var new_cell1=new_row.insertCell(0);
-                
-                new_row.id="w_r"+i;
-                //new_cell1.id="w_sl_no"+i;
+            i++;
+            var new_row= work_table_obj.insertRow(); 
+            new_row.id="w_r"+i;
 
             var flag;
             for (var j=1;j<i;j++){
                 flag=0;
                 if (check("w_r"+(i-j))==0 )
                 {
-                    //console.log("j"+j+"i"+i+"fl"+flag)
                     copy_vals("w_r"+(i-j),"w_r"+i);
                     return;
                 }
@@ -111,20 +99,19 @@
                     flag=1;
                 }
             }
-                if (flag==1){
+            if (flag==1){
                     alert("reload page");
-                    
-                }
-            
-            
+            }  
         }
 
+//copying one row-format to new row
         function copy_vals(s,d) {
             var _src = document.getElementById(""+s);
             var _dest = document.getElementById( ""+d);
             _dest.innerHTML = _src.innerHTML;
         }
 
+//checking which row-id exists and is in proper row-format
         function check(e1){
             var element1 = document.getElementById (e1);
             
@@ -135,9 +122,8 @@
                 return 1;
             }
         }
-
+//deleting rows from any of the 2tables 
         function DelRow(r){
-            //console.log(r)
             var del=document.getElementById(""+r);
             del.innerHTML="";
         }

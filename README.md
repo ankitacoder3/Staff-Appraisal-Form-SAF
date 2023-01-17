@@ -1,8 +1,9 @@
 # Employee-Appraisal-Form
 
-This is an "Employee appraisal form", implemented using HTML,CSS,Javascript,jQuery and AJAX.
+##Summary-
+-This is an "Employee appraisal form", implemented using HTML,CSS,Javascript,jQuery and AJAX.
 
-The features of this project are as follows:
+##The features of this project are as follows:
 
   -In this project user (employee) inputs their work in the tables given.
   -User can dynamically add and delete the rows of the table. 

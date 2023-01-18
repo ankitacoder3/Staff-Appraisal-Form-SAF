@@ -3,7 +3,7 @@
 
 ## Summary:
 #### This is an "Employee appraisal form", implemented using HTML, CSS, Javascript, jQuery and AJAX.
-## 
+### 
 
 ## The features of this project are as follows:
 

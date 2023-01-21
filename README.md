@@ -8,7 +8,7 @@
 ###
 ###
 
-## The features of this project are as follows:
+## Features:
 
   ##### -> In this project user (employee) inputs their work in the tables given.
   ##### -> User can dynamically add and delete the rows of the table. 

@@ -1,16 +1,16 @@
-# Employee-Appraisal-Form
+# Staff-Appraisal-Form-SAF
 ###
 ###
 ###
 
 ## Summary:
-#### This is an "Employee appraisal form", implemented using HTML, CSS, Javascript, jQuery and AJAX.
+#### This is an "Staff Appraisal Form", implemented using HTML, CSS, Javascript, jQuery and AJAX.
 ###
 ###
 
 ## Features:
 
-  ##### -> In this project user (employee) inputs their work in the tables given.
+  ##### -> In this project user (staff) inputs their work in the tables given.
   ##### -> User can dynamically add and delete the rows of the table. 
 
   ##### -> Date of filling form is got automatically
@@ -20,12 +20,12 @@
  
 ## Steps for execution:
 
-  #### 1. Clone the 'Employee-Appraisal-Form' github repository.
-  #### 2. Navigate to the 'Employee_Appraisal_Form' Directory in that.
-  #### 3. Open the 'web_eaf.html' in the browser.
-  #### 4. The 'Employee appraisal form' opens in the browser
+  #### 1. Clone the 'Staff-Appraisal-Form-SAF' github repository.
+  #### 2. Navigate to the 'SAF' Directory in that.
+  #### 3. Open the 'WEB_SAF.html' in the browser.
+  #### 4. The 'Staff Appraisal Form' opens in the browser
   ###
-  #### Note- Few sample screenshots are provided in the 'Screenshots' folder under 'Employee_Appraisal_Form' Directory.
+  #### Note- Few sample screenshots are provided in the 'Screenshots' folder under 'Staff_Appraisal_Form' Directory.
   ###
   ###
   

@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 # Staff-Appraisal-Form-SAF
-=======
-# Employee-Appraisal-Form-EAF
->>>>>>> a6dcb7936251446f14b08a975eeb88d03ab564c2
+
 ###
 ###
 ###
